@@ -2,13 +2,6 @@ header {
   width: 70px;
   height: 100vh;
   background-color: rgb(31, 31, 31);
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    180deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(33, 33, 111, 1) 56%,
-    rgba(3, 123, 180, 1) 100%
-  ); */
   position: fixed;
   display: flex;
   flex-direction: column;
