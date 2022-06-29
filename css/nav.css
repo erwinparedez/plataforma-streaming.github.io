@@ -1,0 +1,63 @@
+header {
+  width: 70px;
+  height: 100vh;
+  background-color: rgb(31, 31, 31);
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(33, 33, 111, 1) 56%,
+    rgba(3, 123, 180, 1) 100%
+  ); */
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .user-photo {
+  margin-top: 15px;
+}
+
+/* Foto de perfil del usuario */
+.user-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-image: url("https://i0.wp.com/www.noise11.com/wp/wp-content/uploads/2017/12/Stan-Lee.jpg?fit=400%2C400");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Iconos de navegacion */
+.menu-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.navigation-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.icon-container {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.icon-container:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+
+header > a:last-child {
+  margin-bottom: 20px;
+}

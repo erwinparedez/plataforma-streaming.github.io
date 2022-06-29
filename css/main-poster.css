@@ -1,0 +1,77 @@
+/* Poster de inicio */
+#main-poster {
+  position: relative;
+  height: 88vh;
+}
+
+#main-poster video {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: -50px;
+  left: 0;
+}
+
+#poster-info {
+  position: absolute;
+  bottom: 40px;
+}
+
+/* Información del poster */
+h2 {
+  font-size: 3.5rem;
+}
+
+#daily-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#top-icon {
+  width: 30px;
+  height: 30px;
+}
+
+#main-poster p {
+  width: 40%;
+  margin: 10px 0 15px 0;
+}
+
+/* Botones */
+.poster-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.poster-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(159, 175, 196);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.poster-button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Boton Ver */
+.play-button-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.ver {
+  width: 75px;
+  gap: 10px;
+}
+
+/* Boton Más info */
+.masInfo {
+  width: 150px;
+}

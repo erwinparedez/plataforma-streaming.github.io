@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+
+:root {
+  --dark-bcg-color: rgb(44, 44, 44);
+  --smooth-white-color: rgba(251, 251, 251, 0.9);
+}
+
+section {
+  position: relative;
+}
+
+.portada-title {
+  width: 350px;
+  height: auto;
+}
+
+.dark-bcg {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(49, 49, 101, 1) 50%,
+    rgba(2, 0, 36, 1) 100%
+  );
+}
+
+.btn-watch {
+  width: 500px;
+  font-size: 1.8rem;
+  font-family: "Staatliches", cursive;
+  border: none;
+  color: white;
+}
+
+/* Galeria 1: Jeff the shark */
+.poster1 {
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+  padding: 50px;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/005/379/418/non_2x/silhouette-of-coral-reef-with-dolphin-shark-stingray-turtle-and-shipwrecks-on-the-blue-seabed-underwater-background-illustration-vector.jpg");
+  background-position: 0 -260px;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.poster1 article {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: 450px;
+}
+
+.capturas {
+  width: 95%;
+  height: 100%;
+  filter: grayscale(0.6);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.4s;
+}
+.capturas:hover {
+  filter: grayscale(0);
+}
+
+#jeff-container {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#jeff-container h2 {
+  margin-top: -10px;
+  font-size: 1.8rem;
+  font-family: "Staatliches", cursive;
+}
+
+#jeff {
+  position: absolute;
+  width: 350px;
+  bottom: -50px;
+  left: 150px;
+  z-index: 10;
+  animation-name: nadar;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes nadar {
+  to {
+    transform: rotate(4deg);
+  }
+}
+
+/* Galeria 2: Iron Heart */
+.poster2 {
+  height: 700px;
+  padding: 150px 50px 0 50px;
+  background-image: url("https://cdn.dribbble.com/users/3928490/screenshots/6996603/city--00.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.poster2 article {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+}
+
+.poster2 .portada-title {
+  width: 500px;
+}
+
+#ironheart-bcg {
+  width: auto;
+  height: 360px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#ironheart {
+  height: 800px;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  animation-name: volar;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes volar {
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+/* Galeria 3: Antman and the Wasp */
+.poster3 {
+  width: calc(100% - 50px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0 90px 50px;
+}
+
+.poster3 article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poster3 .portada-title {
+  width: 500px;
+}
+
+.poster3 article b {
+  font-size: 1.3rem;
+}
+
+.poster3 article p {
+  color: whitesmoke;
+  padding: 10px 0 20px 0;
+}
+
+#antman {
+  height: 360px;
+  width: auto;
+  transition: 3s;
+  margin-right: 60px;
+}
+
+#wasp {
+  width: auto;
+  height: 600px;
+  transition: 4s;
+}
+
+.antwasp-char:hover {
+  transform: scale(0.1);
+}

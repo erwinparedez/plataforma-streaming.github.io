@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap");
+@import "./nav.css";
+@import "./main-poster.css";
+@import "./posters.css";
+@import "./galerias.css";
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+}
+
+main {
+  width: 60vw;
+  margin-left: 70px;
+  display: grid;
+  grid-template-areas:
+    "main-poster"
+    "galeriaA"
+    "poster1"
+    "galeriaB"
+    "poster2"
+    "galeriaC"
+    "poster3";
+  grid-template-columns: calc(100vw - 90px);
+}
+
+#main-poster {
+  grid-area: main-poster;
+}
+.poster1 {
+  grid-area: poster1;
+}
+.poster2 {
+  grid-area: poster2;
+}
+.poster3 {
+  grid-area: poster3;
+}
+
+.galeriaA {
+  grid-area: galeriaA;
+}
+.galeriaB {
+  grid-area: galeriaB;
+}
+.galeriaC {
+  grid-area: galeriaC;
+}
+
+section {
+  padding-left: 30px;
+  position: relative;
+}

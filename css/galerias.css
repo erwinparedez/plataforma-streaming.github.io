@@ -1,0 +1,130 @@
+/* Galeria 1: Carrusel */
+.galeriaA {
+  display: grid;
+  grid-template-columns: repeat(8, 260px);
+  grid-template-rows: 350px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.portadas {
+  height: 344px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  transition: 0.5s;
+}
+
+.portadas:hover {
+  filter: grayscale(50%);
+  transform: scale(1.1);
+  border: 2px solid white;
+  z-index: 10;
+}
+
+/* Galeria B: Maraton */
+.galeriaB {
+  padding-top: 30px;
+  color: white;
+}
+.galeriaB h2 {
+  font-size: 2rem;
+  padding-left: 40px;
+}
+.galeriaB p {
+  color: var(--smooth-white-color);
+  padding-left: 40px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(5, 260px);
+  grid-template-rows: 370px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+/* GaleriaC: Capitulos */
+.galeriaC {
+  display: grid;
+  grid-template-areas:
+    "videobox-container1"
+    "videobox-container2"
+    "videobox-container3";
+  gap: 15px;
+  justify-items: center;
+  background-image: url("https://wallpaperaccess.com/full/123346.jpg");
+  background-size: cover;
+  padding: 50px 20px 120px 20px;
+}
+
+.videobox-container1 {
+  grid-area: videobox-container1;
+}
+.videobox-container2 {
+  grid-area: videobox-container2;
+}
+.videobox-container3 {
+  grid-area: videobox-container3;
+}
+
+.galeriaC article {
+  width: 85%;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  color: black;
+  transition: 0.4s;
+}
+.galeriaC article:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+/* Video Info */
+.videobox-info {
+  padding: 20px 100px 20px 20px;
+}
+.videobox-info h3 {
+  padding: 5px 0;
+  font-size: 1.8rem;
+}
+.galeriaC > p {
+  font-size: 1.2rem;
+}
+
+/* Video miniaturas */
+.videobox {
+  width: 320px;
+  height: 180px;
+  border-start-start-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+.videobox1 {
+  background-image: url("../assets/spiderman3-static.png");
+  background-size: cover;
+}
+.videobox1:hover {
+  background-image: url("../assets/spiderman3-playing.png");
+  background-size: cover;
+}
+.videobox2 {
+  background-image: url("../assets/spiderman6-static.png");
+  background-size: cover;
+}
+.videobox2:hover {
+  background-image: url("../assets/spiderman6-playing.png");
+  background-size: cover;
+}
+.videobox3 {
+  background-image: url("../assets/spiderman2-static.png");
+  background-size: cover;
+}
+.videobox3:hover {
+  background-image: url("../assets/spiderman2-playing.png");
+  background-size: cover;
+}
