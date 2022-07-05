@@ -1,0 +1,139 @@
+/*  ----------------- General  ----------------- */
+main {
+  margin-left: 0;
+}
+
+section {
+  padding-left: 0;
+}
+/* Iconos */
+.menu-icons {
+  width: 20px;
+  height: 20px;
+}
+/* Contenedor de los iconos */
+.icon-container {
+  width: 35px;
+  height: 35px;
+}
+
+/* ----------------- Barra de Navegacion ----------------- */
+header {
+  height: 70px;
+  width: 100%;
+  flex-direction: row;
+  bottom: 0;
+  padding-left: 10px;
+}
+/* Foto de perfil del usuario */
+header .user-photo {
+  margin-top: 0;
+}
+/* Iconos de navegacion */
+.navigation-icons {
+  gap: 0;
+  flex-direction: row;
+}
+/* Icono de herramientas */
+header > a:last-child {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+
+/*  ----------------- Galeria A: Varios personajes ----------------- */
+.galeriaA {
+  padding-left: 20px;
+}
+
+/*  ----------------- Poster 1: Jeff the shark -----------------  */
+.poster1 {
+  padding-left: 10px;
+}
+/* Contenedor: Titulo/Logo, Boton de exploracion y Jeff */
+#jeff-container {
+  gap: 10px;
+  margin-left: 10px;
+}
+#jeff-container h2 {
+  font-size: 1.5rem;
+}
+/* Personaje: Jeff el tiburon */
+#jeff {
+  width: 45%;
+}
+
+/* ----------------- Galeria B: Spiderverse -----------------*/
+/* Descripcion de la galeria */
+.galeriaB h2 {
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+.galeriaB p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Galeria: Portadas del Spiderverse */
+.galeria {
+  padding-left: 20px;
+}
+
+/*  ----------------- Poster 2: Iron Heart -----------------  */
+.poster2 {
+  height: 300px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-repeat: repeat-y;
+  background-position: center -2px;
+  background-size: cover; */
+}
+/* Contenedor Titulo/Logo */
+.poster2 article {
+  justify-content: center;
+  align-items: center;
+}
+/* Titulo/Logo */
+.poster2 .portada-title {
+  width: 90%;
+  margin-bottom: 20px;
+}
+/* Boton de exploracion */
+.poster2 .btn-watch {
+  display: none;
+}
+/* Personaje: IronHeart */
+#ironheart {
+  height: 250px;
+  top: 130px;
+}
+
+/* ----------------- Galeria C: Spiderverse -----------------*/
+/* Titulo de cada capitulo */
+.galeriaC h2 {
+  font-size: 8vw;
+}
+/* Contenedor con la visualizacion de cada capitulo */
+.videobox {
+  width: 100%;
+}
+
+/* ----------------- Poster 3: Antman and the Wasp -----------------*/
+/* Contenedor: Titulo/Logo */
+.poster3 article {
+  margin-right: 0;
+}
+/* Personaje: Antman */
+#antman {
+  width: 15%;
+  top: 18%;
+  left: 10%;
+  margin: 0;
+}
+/* Personaje: Wasp */
+#wasp {
+  width: 20%;
+  top: 10%;
+  margin-right: 10px;
+}

@@ -1,0 +1,96 @@
+/*  ----------------- Poster de inicio: video ----------------- */
+/* Video */
+#main-poster video {
+  top: 0;
+  height: 100%;
+}
+/* Descripcion del video */
+#main-poster p {
+  width: 60%;
+}
+
+/*  ----------------- Poster 1: Jeff the shark -----------------  */
+.poster1 {
+  height: auto;
+  background-position: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* Contenedor: Titulo/Logo, Boton de exploracion y Jeff */
+#jeff-container {
+  flex-direction: row;
+}
+/* Personaje: Jeff el tiburon */
+#jeff {
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+/*  ----------------- Poster 2: Iron Heart -----------------  */
+/* Contenedor: Titulo/Logo y Boton de exploracion */
+.poster2 article {
+  margin-left: 4%;
+}
+/* Personaje: IronHeart */
+#ironheart {
+  height: 90%;
+  right: 8%;
+}
+@media screen and (max-width: 1230px) {
+  .poster2 {
+    background-repeat: repeat-y;
+    background-position: center -2px;
+    background-size: cover;
+  }
+}
+
+/*  ----------------- Galeria C: Spectacular Spiderman -----------------  */
+.galeriaC h2 {
+  text-align: center;
+}
+/* Descripcion de cada capitulo */
+.videobox-info {
+  padding: 5px 20px 20px;
+}
+
+@media screen and (max-width: 1130px) {
+  .videobox-info {
+    padding: 10px 20px;
+  }
+  .videobox-info h3 {
+    font-size: 1.4rem;
+  }
+  .galeriaC div > p {
+    font-size: 1.1rem;
+  }
+}
+
+/*  ----------------- Poster 3: Antman and the Wasp -----------------  */
+.poster3 {
+  padding: 20px 0px 70px 50px;
+}
+/* Contenedor: Titulo/Logo y Boton de exploracion */
+.poster3 article {
+  width: 400px;
+  text-align: center;
+}
+/* Boton de exploracion */
+.poster3 .btn-watch {
+  width: 100%;
+}
+/* Titulo/Logo */
+.poster3 .portada-title {
+  width: 70%;
+}
+/* Personaje: Antman */
+#antman {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+/* Personaje: Wasp */
+#wasp {
+  width: 280px;
+  height: auto;
+}

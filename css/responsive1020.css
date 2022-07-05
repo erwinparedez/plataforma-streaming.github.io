@@ -1,0 +1,82 @@
+/*  ----------------- Poster de inicio: video -----------------  */
+#main-poster p {
+  width: 90%;
+}
+
+/*  ----------------- Poster 1: Jeff the shark -----------------  */
+.poster1 {
+  overflow-x: hidden;
+}
+
+/* Mini-galeria: portadas */
+.poster1 article {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+/* -----------------  Poster 2: Iron Heart -----------------  */
+.poster2 {
+  height: 400px;
+  padding: 100px 50px 100px 50px;
+}
+/* Contenedor: Titulo/Logo y Boton de exploracion */
+.poster2 article {
+  margin-left: 0;
+}
+/* Personaje: IronHeart */
+#ironheart {
+  top: 30px;
+  right: 6%;
+}
+
+/*  ----------------- Galeria C: Spectacular Spiderman -----------------  */
+.galeriaC {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+/* Tarjetas de capitulos */
+.galeriaC article {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+.videobox {
+  border-end-start-radius: 0px;
+  border-start-end-radius: 20px;
+}
+/* Descripcion de cada capitulo */
+.videobox-info {
+  padding: 5px 20px 20px;
+}
+
+.galeriaC article h3 {
+  font-size: 1.5rem;
+}
+.galeriaC article p {
+  font-size: 1rem;
+}
+
+/* Descripcion de la galeria */
+.galeriaC > div {
+  order: 1;
+}
+
+.galeriaC #info {
+  width: 100%;
+  text-align: center;
+}
+.galeriaC #info p {
+  font-size: 1rem;
+}
+
+/* ----------------- Poster 3: Antman and the Wasp -----------------*/
+/* Personaje: Wasp */
+#wasp {
+  width: 240px;
+}

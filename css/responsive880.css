@@ -1,0 +1,136 @@
+/* ----------------- General -----------------  */
+main {
+  grid-template-areas:
+    "galeriaA"
+    "poster1"
+    "galeriaB"
+    "poster2"
+    "galeriaC"
+    "poster3";
+}
+/* Boton de exploracion */
+.btn-watch {
+  width: 60%;
+  font-size: 1.3rem;
+}
+
+/*  ----------------- Poster de inicio: video ----------------- */
+#main-poster {
+  display: none;
+}
+
+/*  ----------------- Galeria A: Personajes varios -----------------  */
+.galeriaA {
+  grid-template-columns: repeat(8, 170px);
+  grid-template-rows: 250px;
+  padding-bottom: 30px;
+}
+
+.portadas {
+  height: 244px;
+}
+
+/*  ----------------- Poster 1: Jeff the shark -----------------  */
+/* Titulo/Logo */
+.portada-title {
+  width: 40%;
+}
+/* Contenedor: Titulo/Logo, Boton de exploracion y Jeff*/
+#jeff-container {
+  margin: 0;
+  padding-left: 30px;
+  align-items: center;
+  justify-content: center;
+}
+/* Personaje: Jeff el tiburon */
+#jeff {
+  width: 40%;
+}
+/* Mini-galeria: portadas */
+.poster1 article {
+  display: none;
+}
+
+/*  ----------------- Galeria B: Spiderverse -----------------  */
+/* Descripcion de la galeria */
+.galeriaB h2 {
+  padding-left: 20px;
+}
+.galeriaB p {
+  padding-left: 25px;
+}
+/* Galeria: Portadas del Spiderverse */
+.galeria {
+  grid-template-columns: repeat(8, 170px);
+  grid-template-rows: 250px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+
+/*  ----------------- Poster 2: Iron Heart -----------------  */
+.poster2 {
+  height: 300px;
+}
+
+/* Titulo/Logo */
+.poster2 .portada-title {
+  width: 60%;
+}
+/* Personaje: IronHeart */
+#ironheart {
+  height: 450px;
+  top: 30px;
+}
+
+/* -----------------  Poster 3: Antman and the Wasp  ----------------- */
+.poster3 {
+  width: 100%;
+  padding: 50px 0px 120px 0px;
+  flex-direction: column;
+}
+/* Contenedor del Titulo/Logo y Boton de exploracion */
+.poster3 article {
+  order: 1;
+  width: 80%;
+  gap: 10px;
+}
+/* Descripcion del poster */
+.poster3 article b,
+.poster3 article p {
+  display: none;
+}
+/* Personaje: Antman */
+#antman {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin: 0px;
+  top: 20%;
+  left: 10%;
+}
+/* Personaje: Wasp */
+#wasp {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 8%;
+  right: 5%;
+}
+/* Personajes: Antman and The Wasp */
+.antwasp-char:hover {
+  transform: scale(0.2);
+}
+
+@media (max-width: 800px) {
+  #antman {
+    width: 90px;
+    top: 20%;
+    left: 7%;
+  }
+
+  #wasp {
+    width: 140px;
+    top: 8%;
+    right: 2%;
+  }
+}
