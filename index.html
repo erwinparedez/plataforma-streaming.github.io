@@ -10,10 +10,35 @@
     />
     <title>2do Proyecto - Plataforma de Streaming</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <!-- CSS Responsive: distintas medidas -->
+    <link
+      rel="stylesheet"
+      media="(max-width: 1425px)"
+      href="./css/responsive1425.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 1020px)"
+      href="./css/responsive1020.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 880px)"
+      href="./css/responsive880.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width: 620px)"
+      href="./css/responsive620.css"
+    />
   </head>
+
   <body>
+    <!--------------------- HEADER ----------------------->
     <header>
+      <!-- Foto de perfil del usuario -->
       <a class="user-photo" href="#main-poster"></a>
+      <!-- Iconos de navegacion -->
       <div class="navigation-icons">
         <a class="icon-container" href="#galeriaA">
           <img
@@ -61,19 +86,27 @@
       </a>
     </header>
 
+    <!-------------------- MAIN ---------------------->
     <main>
+      <!-------------------- Poster de inicio: video ---------------------->
       <section id="main-poster">
+        <!-- Video -->
         <video
           src="./assets/miles-morales-video.mp4"
           autoplay
           muted
           loop
         ></video>
+
+        <!-- Info del video -->
         <article id="poster-info">
+          <!-- Titulo/Logo -->
           <img
+            class="portada-title"
             src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/poptart_lob_log_def_01.png"
             alt="Miles Morales"
           />
+          <!-- Top vistas del dia -->
           <div id="daily-top">
             <img
               id="top-icon"
@@ -82,6 +115,7 @@
             />
             <b>N.° 1 en vistas hoy</b>
           </div>
+          <!-- Descripcion del video -->
           <p>
             En un giro inusual de los acontecimientos, Miles se encontró
             repentinamente con una versión alternativa de Peter Parker, que
@@ -89,6 +123,7 @@
             Mysterio. Peter, quien ya estaba bastante confundido al ver a Miles,
             lo atacó y desenmascaró exigiendo respuestas.
           </p>
+          <!-- Botones de reproduccion y exploracion -->
           <div class="poster-buttons">
             <div class="poster-button ver">
               <img
@@ -105,6 +140,8 @@
         </article>
       </section>
 
+      <!------------------- Galeria A: Varios personajes ------------------->
+      <!-- Galeria de portadas -->
       <section id="galeriaA" class="galeriaA dark-bcg">
         <img
           class="portadas"
@@ -138,8 +175,10 @@
         />
       </section>
 
+      <!------------------- Poster 1: Jeff el Tiburon ------------------->
       <section id="poster1" class="poster1">
         <div id="jeff-container">
+          <!-- Titulo/Logo -->
           <img
             id="jeff-title"
             class="portada-title"
@@ -147,8 +186,11 @@
             alt="it's jeff"
           />
           <h2>¡Conoce a Jeff el Tiburon!</h2>
+          <!-- Personaje: Jeff -->
           <img id="jeff" src="./assets/jeff.png" alt="jeff" />
         </div>
+
+        <!-- Mini-galeria: portadas -->
         <article>
           <img
             class="capturas"
@@ -168,9 +210,12 @@
         </article>
       </section>
 
+      <!------------------- Galeria B: Spiderverse ------------------->
       <div id="galeriaB" class="galeriaB dark-bcg">
+        <!-- Descripcion de la galeria -->
         <h2>Gran Poder, Gran Responsabilidad!</h2>
         <p>Mira a tus arácnidos favoritos salvar el dia</p>
+        <!-- Galeria: Portadas del Spiderverse -->
         <section class="galeria">
           <img
             class="portadas"
@@ -200,26 +245,39 @@
         </section>
       </div>
 
+      <!------------------- Poster 2: Iron Heart ------------------->
       <section id="poster2" class="poster2">
         <article>
+          <!-- Titulo/Logo -->
           <img
             class="portada-title"
             src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/44AE805963122CA4C220E879569708A69D27A7E2CEC361D974F9FA1753F80A13/scale?width=1440&aspectRatio=1.78&format=png"
             alt="Iron heart"
           />
+          <!-- Boton de exploracion -->
           <button class="btn-watch poster-button">
             Mira todos los capitulos aqui!
           </button>
         </article>
+        <!-- Personaje: IronHeart -->
         <img id="ironheart" src="./assets/ironheart.png" alt="Iron Heart" />
       </section>
 
+      <!------------------- Galeria C: Lista de capitulos de Spectacular Spiderman ------------------->
       <section id="galeriaC" class="galeriaC">
-        <h2>Gran Poder, Gran Responsabilidad!</h2>
-        <p>¡La mejor serie de Spiderman que ha existido ahora está devuelta!</p>
-        <button class="btn-watch poster-button">
-          Mira todos los capitulos aqui!
-        </button>
+        <h2>¡Gran Poder, Gran Responsabilidad!</h2>
+        <div id="info">
+          <!-- Descripcion de la galeria -->
+          <p>
+            ¡La mejor serie de Spiderman que ha existido ahora está devuelta!
+          </p>
+          <!-- Boton de exploracion -->
+          <button class="btn-watch poster-button">
+            Mira todos los capitulos aqui!
+          </button>
+        </div>
+        <!-- Tarjetas de los Capitulos: Spectacular Spiderman -->
+        <!-- Tarjeta Capitulo 1 -->
         <article class="videobox-container1">
           <div class="videobox videobox1"></div>
           <div class="videobox-info">
@@ -227,25 +285,22 @@
             <p>
               Peter Parker es un adolescente de dieciséis años que sufre la
               picadura de una araña que le modifica genéticamente,
-              convirtiéndole en un superhéroe. Peter tiene que encontrar un
-              equilibrio entre sus alter-ego y la vida entre la escuela y los
-              combates contra villanos como Vulture, Mysterio o el Doctor
-              Octopus.
+              convirtiéndole en un superhéroe...
             </p>
           </div>
         </article>
+        <!-- Tarjeta Capitulo 2 -->
         <article class="videobox-container2">
           <div class="videobox videobox2"></div>
           <div class="videobox-info">
             <h3>Capitulo 2: Que lagarta mi amiga</h3>
             <p>
               Como la mayoría de los adolescentes de su edad, Peter está
-              intentando descubrir quién es y cómo ha llegado a ser lo que es.
-              En su viaje para atar los cabos de su pasado, descubre un secreto
-              familiar que finalmente dará forma a su destino como Spiderman.
+              intentando descubrir quién es y cómo ha llegado a ser lo que es...
             </p>
           </div>
         </article>
+        <!-- Tarjeta Capitulo 3 -->
         <article class="videobox-container3">
           <div class="videobox videobox3"></div>
           <div class="videobox-info">
@@ -253,15 +308,15 @@
             <p>
               Desde que el simbionte extraterrestre tomó posesión del cuerpo de
               Peter Parker y posteriormente de Eddie Brock para convertirse en
-              el villano conocido como Venom, la relación ha sido la de dos
-              enemigos acérrimos, aunque en determinadas ocasiones han trabajado
-              juntos para detener a algún enemigo en común.
+              el villano conocido como Venom, la relación ha sido...
             </p>
           </div>
         </article>
       </section>
 
+      <!------------------- Poster 3: Antman and the Wasp ------------------->
       <section id="poster3" class="poster3 dark-bcg">
+        <!-- Personaje: Antman -->
         <img
           id="antman"
           class="antwasp-char"
@@ -269,17 +324,21 @@
           alt="Antman"
         />
         <article>
+          <!-- Titulo/Logo -->
           <img
             class="portada-title"
             src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/CFA212E14226040B4BCE40477713B98AD594EF8C1DA5151FC014451561659820/scale?width=1440&aspectRatio=1.78&format=png"
             alt="Antman and the Wasp"
           />
+          <!-- Descripcion del poster -->
           <b>¡Mira a nuestros superheroes utilizando sus poderes!</b>
           <p>Coloca el cursor encima de uno de ellos</p>
+          <!-- Boton de exploracion -->
           <button class="btn-watch poster-button">
             O mira toda la serie aqui!
           </button>
         </article>
+        <!-- Personaje: Wasp -->
         <img
           id="wasp"
           class="antwasp-char"
