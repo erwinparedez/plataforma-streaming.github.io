@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  width: 60vw;
+  width: 100%;
   margin-left: 70px;
   display: grid;
   grid-template-areas:
@@ -30,7 +30,6 @@ main {
     "poster2"
     "galeriaC"
     "poster3";
-  grid-template-columns: calc(100vw - 90px);
 }
 
 #main-poster {

@@ -26,6 +26,7 @@
 .galeriaB {
   padding-top: 30px;
   color: white;
+  overflow-x: hidden;
 }
 .galeriaB h2 {
   font-size: 2rem;
@@ -57,6 +58,12 @@
   background-image: url("https://wallpaperaccess.com/full/123346.jpg");
   background-size: cover;
   padding: 50px 20px 120px 20px;
+}
+.galeriaC > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .videobox-container1 {
@@ -92,7 +99,7 @@
   padding: 5px 0;
   font-size: 1.8rem;
 }
-.galeriaC > p {
+.galeriaC div > p {
   font-size: 1.2rem;
 }
 
