@@ -38,8 +38,7 @@ section {
   justify-content: space-between;
   height: 450px;
   padding: 50px;
-  background: url("https://static.vecteezy.com/system/resources/previews/005/379/418/non_2x/silhouette-of-coral-reef-with-dolphin-shark-stingray-turtle-and-shipwrecks-on-the-blue-seabed-underwater-background-illustration-vector.jpg")
-    0 -260px / cover no-repeat;
+  background: url("../assets/jeff-background.jpg") 0 -260px / cover no-repeat;
 }
 
 .poster1 article {
@@ -95,8 +94,7 @@ section {
 .poster2 {
   height: 700px;
   padding: 150px 50px 0 50px;
-  background: url("https://cdn.dribbble.com/users/3928490/screenshots/6996603/city--00.jpg")
-    center/cover no-repeat;
+  background: url("../assets/ironheart-background.jpg") center/cover no-repeat;
 }
 
 .poster2 article {

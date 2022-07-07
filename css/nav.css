@@ -19,7 +19,7 @@ header .user-photo {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background-image: url("https://i0.wp.com/www.noise11.com/wp/wp-content/uploads/2017/12/Stan-Lee.jpg?fit=400%2C400");
+  background-image: url("../assets/stan-lee.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
