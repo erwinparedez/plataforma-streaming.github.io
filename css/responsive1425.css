@@ -15,6 +15,7 @@
   background-position: center;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
 }
 /* Contenedor: Titulo/Logo, Boton de exploracion y Jeff */
 #jeff-container {
