@@ -21,9 +21,8 @@ main {
 
 /*  ----------------- Galeria A: Personajes varios -----------------  */
 .galeriaA {
-  grid-template-columns: repeat(8, 170px);
+  grid-template-columns: repeat(7, 170px);
   grid-template-rows: 250px;
-  padding-bottom: 30px;
 }
 
 .portadas {
@@ -61,9 +60,9 @@ main {
 }
 /* Galeria: Portadas del Spiderverse */
 .galeria {
-  grid-template-columns: repeat(8, 170px);
+  grid-template-columns: repeat(6, 170px);
   grid-template-rows: 250px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   padding-left: 25px;
 }
 
@@ -85,7 +84,7 @@ main {
 /* -----------------  Poster 3: Antman and the Wasp  ----------------- */
 .poster3 {
   width: 100%;
-  padding: 50px 0px 120px 0px;
+  padding: 70px 0px 110px 0px;
   flex-direction: column;
 }
 /* Contenedor del Titulo/Logo y Boton de exploracion */

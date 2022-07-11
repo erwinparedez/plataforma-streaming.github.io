@@ -1,11 +1,26 @@
 /* Galeria 1: Carrusel */
 .galeriaA {
   display: grid;
-  grid-template-columns: repeat(8, 260px);
+  grid-template-columns: repeat(7, 260px);
   grid-template-rows: 350px;
   padding-top: 30px;
-  padding-bottom: 50px;
-  overflow-x: hidden;
+  padding-bottom: 20px;
+  overflow-x: scroll;
+}
+
+.galeriaA::-webkit-scrollbar,
+.galeria::-webkit-scrollbar {
+  height: 8px;
+}
+.galeriaA::-webkit-scrollbar-thumb,
+.galeria::-webkit-scrollbar-thumb {
+  background: rgb(65, 63, 63);
+  border-radius: 4px;
+}
+.galeriaA::-webkit-scrollbar-thumb:hover,
+.galeria::-webkit-scrollbar-thumb:hover {
+  background: #656565;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .portadas {
@@ -28,6 +43,7 @@
   color: white;
   overflow-x: hidden;
 }
+
 .galeriaB h2 {
   font-size: 2rem;
   padding-left: 40px;
@@ -39,11 +55,12 @@
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(5, 260px);
+  grid-template-columns: repeat(6, 260px);
   grid-template-rows: 370px;
   padding-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-left: 50px;
+  overflow-x: scroll;
 }
 
 /* GaleriaC: Capitulos */
@@ -57,7 +74,7 @@
   justify-items: center;
   background-image: url("../assets/spectacular-spiderman-background.jpg");
   background-size: cover;
-  padding: 50px 20px 120px 20px;
+  padding: 50px 20px 100px 20px;
 }
 .galeriaC > div {
   display: flex;

@@ -43,6 +43,12 @@ header > a:last-child {
 /*  ----------------- Galeria A: Varios personajes ----------------- */
 .galeriaA {
   padding-left: 20px;
+  padding-bottom: 30px;
+}
+
+.galeriaA::-webkit-scrollbar,
+.galeria::-webkit-scrollbar {
+  display: none;
 }
 
 /*  ----------------- Poster 1: Jeff the shark -----------------  */
@@ -76,6 +82,7 @@ header > a:last-child {
 /* Galeria: Portadas del Spiderverse */
 .galeria {
   padding-left: 20px;
+  padding-bottom: 30px;
 }
 
 /*  ----------------- Poster 2: Iron Heart -----------------  */
@@ -85,9 +92,6 @@ header > a:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-repeat: repeat-y;
-  background-position: center -2px;
-  background-size: cover; */
 }
 /* Contenedor Titulo/Logo */
 .poster2 article {

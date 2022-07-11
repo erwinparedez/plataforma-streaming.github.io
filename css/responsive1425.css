@@ -37,13 +37,6 @@
   height: 90%;
   right: 8%;
 }
-@media screen and (max-width: 1230px) {
-  .poster2 {
-    background-repeat: repeat-y;
-    background-position: center -2px;
-    background-size: cover;
-  }
-}
 
 /*  ----------------- Galeria C: Spectacular Spiderman -----------------  */
 .galeriaC h2 {
