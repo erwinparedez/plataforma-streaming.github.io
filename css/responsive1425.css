@@ -17,10 +17,12 @@
   align-items: center;
   overflow-x: hidden;
 }
+
 /* Contenedor: Titulo/Logo, Boton de exploracion y Jeff */
 #jeff-container {
   flex-direction: row;
 }
+
 /* Personaje: Jeff el tiburon */
 #jeff {
   position: relative;
@@ -33,6 +35,7 @@
 .poster2 article {
   margin-left: 4%;
 }
+
 /* Personaje: IronHeart */
 #ironheart {
   height: 90%;
@@ -43,6 +46,7 @@
 .galeriaC h2 {
   text-align: center;
 }
+
 /* Descripcion de cada capitulo */
 .videobox-info {
   padding: 5px 20px 20px;
@@ -64,25 +68,30 @@
 .poster3 {
   padding: 20px 0px 70px 50px;
 }
+
 /* Contenedor: Titulo/Logo y Boton de exploracion */
 .poster3 article {
   width: 400px;
   text-align: center;
 }
+
 /* Boton de exploracion */
 .poster3 .btn-watch {
   width: 100%;
 }
+
 /* Titulo/Logo */
 .poster3 .portada-title {
   width: 70%;
 }
+
 /* Personaje: Antman */
 #antman {
   width: 200px;
   height: auto;
   margin-right: 20px;
 }
+
 /* Personaje: Wasp */
 #wasp {
   width: 280px;
