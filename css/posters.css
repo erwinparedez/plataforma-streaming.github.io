@@ -39,6 +39,7 @@ section {
   height: 450px;
   padding: 50px;
   background: url("../assets/jeff-background.jpg") 0 -260px / cover no-repeat;
+  overflow-x: hidden;
 }
 
 .poster1 article {
