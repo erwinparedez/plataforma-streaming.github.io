@@ -1,10 +1,10 @@
-/* Galeria 1: Carrusel */
+/*  ----------------- Galeria A: Varios personajes ----------------- */
 .galeriaA {
   display: grid;
-  grid-template-columns: repeat(7, 260px);
+  grid-template-columns: repeat(11, 260px);
   grid-template-rows: 350px;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   overflow-x: scroll;
 }
 
@@ -37,7 +37,7 @@
   z-index: 10;
 }
 
-/* Galeria B: Maraton */
+/* ----------------- Galeria B: Spiderverse -----------------*/
 .galeriaB {
   padding-top: 30px;
   color: white;
@@ -55,7 +55,7 @@
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(6, 260px);
+  grid-template-columns: repeat(7, 260px);
   grid-template-rows: 370px;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -63,7 +63,7 @@
   overflow-x: scroll;
 }
 
-/* GaleriaC: Capitulos */
+/* ----------------- Galeria C: Spiderverse -----------------*/
 .galeriaC {
   display: grid;
   grid-template-areas:

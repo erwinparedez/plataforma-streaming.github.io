@@ -1,10 +1,10 @@
 /* ----------------- General -----------------  */
 main {
   grid-template-areas:
+    "poster2"
     "galeriaA"
     "poster1"
     "galeriaB"
-    "poster2"
     "galeriaC"
     "poster3";
 }
@@ -21,7 +21,7 @@ main {
 
 /*  ----------------- Galeria A: Personajes varios -----------------  */
 .galeriaA {
-  grid-template-columns: repeat(7, 170px);
+  grid-template-columns: repeat(11, 170px);
   grid-template-rows: 250px;
 }
 
@@ -60,7 +60,7 @@ main {
 }
 /* Galeria: Portadas del Spiderverse */
 .galeria {
-  grid-template-columns: repeat(6, 170px);
+  grid-template-columns: repeat(7, 170px);
   grid-template-rows: 250px;
   padding-bottom: 20px;
   padding-left: 25px;
