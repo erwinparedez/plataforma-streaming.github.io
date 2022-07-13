@@ -5,7 +5,7 @@
   grid-template-rows: 350px;
   padding-top: 30px;
   padding-bottom: 20px;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .galeriaA::-webkit-scrollbar,
