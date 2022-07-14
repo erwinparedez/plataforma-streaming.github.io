@@ -132,23 +132,25 @@
   background-image: url("../assets/spiderman3-static.png");
   background-size: cover;
 }
-.videobox1:hover {
+.videobox-container1:hover > .videobox1 {
   background-image: url("../assets/spiderman3-playing.png");
   background-size: cover;
 }
+
 .videobox2 {
   background-image: url("../assets/spiderman6-static.png");
   background-size: cover;
 }
-.videobox2:hover {
+.videobox-container2:hover > .videobox2 {
   background-image: url("../assets/spiderman6-playing.png");
   background-size: cover;
 }
+
 .videobox3 {
   background-image: url("../assets/spiderman2-static.png");
   background-size: cover;
 }
-.videobox3:hover {
+.videobox-container3:hover > .videobox3 {
   background-image: url("../assets/spiderman2-playing.png");
   background-size: cover;
 }
